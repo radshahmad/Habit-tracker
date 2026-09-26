@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: BASE_PATH=/Habit-Tracker/ npm run build
+      - run: BASE_PATH=/Habit-tracker/ npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
